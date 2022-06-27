@@ -1,7 +1,7 @@
 .navbar {
     width: 100%;
     height: 100px;
-    background-color: #121619;
+    background-color: #010101;
     display: flex;
     flex-direction: row;
   }
@@ -27,15 +27,19 @@
   }
   
   .navbar a {
-    color: white;
+    color: #fff;
     text-decoration: none;
     margin: 20px;
+  }
+
+  .navbar a:hover {
+    color: #EC1C26;
   }
   
   .navbar .rightSide button {
     background-color: transparent;
     border: none;
-    color: white;
+    color: #EC1C26;
     cursor: pointer;
   }
   
@@ -45,6 +49,7 @@
   
   .navbar #open {
     padding-left: 0px;
+    
   }
   .navbar #open img {
     display: none;
@@ -67,6 +72,7 @@
     width: 70px;
     margin: 5px;
   }
+
   @media only screen and (max-width: 900px) {
     .navbar .rightSide a {
       width: 70px;

@@ -9,6 +9,7 @@
   .menu .menuTitle {
     font-family: cursive;
     font-size: 60px;
+    color: #010101;
   }
   
   .menuList {
@@ -22,14 +23,16 @@
   /* MENU ITEM STYLING */
   
   .menuItem {
+    background-color: #010101;
+    color: #fff;
     border-radius: 15px;
     width: 300px;
     height: 350px;
     margin: 20px;
-    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 3px 15px rgba(110, 6, 6, 0.894);
   }
   .menuItem:hover {
-    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 3px 15px rgba(219, 173, 6, 0.961);
     transition: 0.3s ease-in;
     cursor: pointer;
   }
@@ -46,7 +49,9 @@
   
   .menuItem h1,
   .menuItem p {
-    margin-left: 20px;
+    /* margin-left: 20px; */
+    text-align: center;
+    margin: .5rem .5 .5rem .5;
   }
   
   @media only screen and (max-width: 1300px) {

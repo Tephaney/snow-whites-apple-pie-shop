@@ -9,7 +9,7 @@ import Minis from '../assets/Apple-Pie-Minis.jpeg';
 
 export const MenuList = [
     {
-        name:'American Apple Pie',
+        name:'Classic American Apple Pie',
         image: American,
         price: 15.00,
     },

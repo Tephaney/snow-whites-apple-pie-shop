@@ -10,7 +10,7 @@ function Home() {
             <h1>Snow White's Apple Pies</h1>
             <p>THE SWEETEST OF THEM ALL</p>
             <Link to='/menu'>
-                <button> Order Now </button>
+                <button> ORDER NOW </button>
             </Link>
         </div>  
     </div>
